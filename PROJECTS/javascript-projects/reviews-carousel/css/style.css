@@ -1,0 +1,64 @@
+html {
+  font-family: sans-serif;
+}
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  background: linear-gradient(to bottom, #232526, #414345);
+}
+
+#review-title {
+  color: white;
+  margin: 20px;
+}
+
+#review-container {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  place-items: center;
+  align-content: flex-start;
+  border-radius: 20px;
+  background-color: #121212;
+  position: relative;
+}
+#review-container .left-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+#review-container .right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  cursor: pointer;
+}
+#review-container #client-pic-review {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  margin: 20px 0 20px 0;
+  user-select: none;
+}
+#review-container #client-name-review {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  user-select: none;
+}
+#review-container #client-review {
+  text-align: center;
+  padding: 0 80px;
+  user-select: none;
+}
+
+/*# sourceMappingURL=style.css.map */
