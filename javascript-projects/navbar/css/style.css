@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu {
+    width: 100%;
+}
+
+.navbar-nav li {
+    margin: 16px;
+    padding: 4px 8px;
+
+    color: white;
+}
+
+.pad {
+    padding: 0 8rem;
+    overflow: hidden;
+}
+
+
+.selected {
+    background-color: rgb(144, 203, 255);
+    border-radius: 4px;
+}
+
+.line {
+    display: none;
+    width: 22px;
+    height: 4px;
+
+    background-color: white;
+    margin: 4px;
+    border-radius: 2px;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-menu {
+    overflow: hidden;
+}
+
+.activated {
+    height: 12rem;
+}
+
+@media screen and (max-width: 570px) {
+
+    nav.d-flex {
+        display: none !important;
+    }
+
+    nav.d-flex {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        right: 0%;
+    }
+
+    nav ul.flex-row {
+        display: flex;
+        flex-direction: column !important;
+        background-color: black;
+    }
+
+    .nav-menu.activated {
+        display: block !important;
+        background-color: black;
+    }
+
+    .nav-menu li {
+        color: white;
+        padding: 0;
+        margin: 32px 0;
+    }
+
+    .selected {
+        background-color: transparent !important;
+    }
+
+    .line {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .pad {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .pad {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .pad {
+        padding: 0 1rem;
+    }
+}
