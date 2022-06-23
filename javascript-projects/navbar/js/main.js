@@ -1,7 +1,6 @@
 const menu = document.querySelector('#burger-menu')
-const navMenu = document.querySelector('nav')
+const navMenu = document.querySelector('.nav-menu-list')
 
-menu.addEventListener("click", (e) => {
-    e.preventDefault()
+menu.onclick = () => {
     navMenu.classList.toggle('activated')
-})
+}

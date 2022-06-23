@@ -29,7 +29,7 @@ function counter(bo) {
             seconds.html(`${sc}`)
             mt++;
             if(mt < 10) {
-                minute.html(`${mt}`)
+                minute.html(`0${mt}`)
             } 
             minute.html(`${mt}`)
         }
