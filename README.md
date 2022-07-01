@@ -1,5 +1,2 @@
 # Javascript-React-Projects
-
-## React Projects
-
-## Javascript Projects
+Projetos em Javascript e React para estudos de ambos.
